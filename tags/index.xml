@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Derrick Burns</title>
-    <link>/tags/</link>
+    <link>https://derbur.github.io/hugo-demo/tags/</link>
     <description>Recent content in Tags on Derrick Burns</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://derbur.github.io/hugo-demo/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
