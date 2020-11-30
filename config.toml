@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Derrick Burns"
+theme = "hugo-theme-codex"
+
+[params]
+  twitter = "https://twitter.com/_derbur"
+  github = "https://github.com/derbur"
+  linkedin = "https://www.linkedin.com/in/thederrickburns/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/"
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    title = "blog"
+    url = "/blog"
