@@ -1,4 +1,4 @@
 ---
-heading: "Hi, this is the Hugo demo"
-subheading: "A tiny demo of Hugo on GitHub pages"
+heading: "Hugo demo"
+subheading: "A tiny site built with Hugo on GitHub pages"
 ---
