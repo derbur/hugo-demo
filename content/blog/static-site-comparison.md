@@ -4,8 +4,8 @@ date: 2020-11-29T23:38:55-05:00
 slug: "post"
 description: "Which of the static site platforms will rule them all?"
 keywords: [ "first", "jekyll", "hugo", "gatsby" ]
-draft: true
-tags: [ "first" , "1", "hugo", "jekyll", "gatsby" ]
+draft: false
+tags: [ "first", "hugo", "jekyll", "gatsby" ]
 math: false
 toc: true
 ---
