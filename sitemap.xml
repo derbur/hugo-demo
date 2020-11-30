@@ -3,15 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://derbur.github.io/hugo-demo/</loc>
+    <loc>/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://derbur.github.io/hugo-demo/categories/</loc>
+    <loc>/blog/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://derbur.github.io/hugo-demo/tags/</loc>
+    <loc>/tags/first/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gatsby/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/post/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-29T23:38:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

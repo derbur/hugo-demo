@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Static Site Frameworks: Hugo, Jekyll or Gatsby? | Derrick Burns</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="Which of the static site platforms will rule them all?">
+  <meta name="keywords" content="first , jekyll , hugo , gatsby">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Static Site Frameworks: Hugo, Jekyll or Gatsby?" />
+  <meta name="twitter:description" content="Which of the static site platforms will rule them all?"/>
+  <meta name="twitter:site" content="https://twitter.com/_derbur" />
+  <meta name="twitter:creator" content="https://twitter.com/_derbur" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.b60e0932fe1c50c3d7c5b4f83ee9e4592363654d0f2abf05bbd0678d5b8a214c.css" integrity="sha256-tg4JMv4cUMPXxbT4PunkWSNjZU0PKr8Fu9BnjVuKIUw="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": ""
+      },
+      "articleSection" : "blog",
+      "name" : "Static Site Frameworks: Hugo, Jekyll or Gatsby?",
+      "headline" : "Static Site Frameworks: Hugo, Jekyll or Gatsby?",
+      "description" : "Which of the static site platforms will rule them all?",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-11-29 23:38:55 -0500 EST",
+      "dateModified" : "2020-11-29 23:38:55 -0500 EST",
+      "url" : "\/blog\/post\/",
+      "wordCount" : "159",
+      "keywords" : ["first", "jekyll", "hugo", "gatsby", "Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/">about</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/blog">blog</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Static Site Frameworks: Hugo, Jekyll or Gatsby?</h1>
+            <time datetime="2020-11-29 23:38:55 -0500 EST" class="post__date">Nov 29 2020</time> 
+          </header>
+          <article class="post__content">
+              
+<p>Bloggin' 😎</p>
+<h2 id="categories">Categories<a class="anchor" href="#categories">#</a></h2>
+<p>Ease of Creation<br>
+Theming<br>
+Hosting<br>
+Updates</p>
+<h2 id="hugo">Hugo<a class="anchor" href="#hugo">#</a></h2>
+<p>Hugo was my first attempt of the list of static sites. This was due to it claiming to be fast and easy to work with, (with Jekyll being a close second - or even an easier platform).</p>
+<h3 id="setup">Setup<a class="anchor" href="#setup">#</a></h3>
+<p>The initial setup of Hugo is simple.</p>
+<ol>
+<li>Install Hugo: <code>brew install hugo</code></li>
+<li>Create a new site: <code>hugo new site hugo-test</code></li>
+<li>Move to the site&rsquo;s directory: <code>cd hugo-test</code></li>
+<li>Run the site locally with drafts enabled: <code>hugo server -D</code></li>
+</ol>
+<p>Now we have a Hugo site up and running! 🚀</p>
+<h3 id="theming">Theming<a class="anchor" href="#theming">#</a></h3>
+<p>For the Hugo blog I chose the <a href="https://github.com/jakewies/hugo-theme-codex" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Codex theme</a>
+.
+To add the theme to the site we just add the submodule to the <code>/themes</code> directory.</p>
+<p>Add Codex theme: <code>git submodule add https://github.com/jakewies/hugo-theme-codex.git themes/hugo-theme-codex</code></p>
+<p>To create/modify the homepage, we add a file called <code>_index.md</code> to the <code>/content</code> directory:</p>
+<pre><code>---
+heading: &quot;Hi, I'm Derrick&quot;
+subheading: &quot;This is a place where I put things&quot;
+---
+</code></pre>
+
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="/tags/first/">first</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="/tags/hugo/">hugo</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="/tags/jekyll/">jekyll</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="/tags/gatsby/">gatsby</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="Twitter"
+         href="https://twitter.com/_derbur"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('svg/twitter.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="GitHub"
+         href="https://github.com/derbur"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+  
+     
+    
+  
+     
+    
+  
+     
+    
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="LinkedIn"
+         href="https://www.linkedin.com/in/thederrickburns/"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('svg/linkedin.svg')"></div>
+      </a>
+    
+  
+     
+    
+     
+</div>
+
+            <p></p>
+          </footer>
+          </div>
+      </div>
+      
+      <div class="toc-container">
+          
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#categories">Categories</a></li>
+    <li><a href="#hugo">Hugo</a>
+      <ul>
+        <li><a href="#setup">Setup</a></li>
+        <li><a href="#theming">Theming</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.49e4d8a384357d9b445b87371863419937ede9fa77737522ffb633073aebfa44.js" integrity="sha256-SeTYo4Q1fZtEW4c3GGNBmTft6fp3c3Ui/7YzBzrr&#43;kQ=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+    <script src="/js/table-of-contents.js"></script>
+  
+
+
+</body>
+
+</html>
