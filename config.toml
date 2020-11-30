@@ -1,4 +1,4 @@
-baseURL = "https://derbur.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Derrick Burns"
 theme = "hugo-theme-codex"
