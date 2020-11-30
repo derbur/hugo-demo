@@ -1,6 +1,6 @@
-baseURL = ""
+baseURL = "https://derbur.github.io/hugo-demo/"
 languageCode = "en-us"
-title = "Derrick Burns"
+title = "hugo-demo"
 theme = "hugo-theme-codex"
 
 [params]
